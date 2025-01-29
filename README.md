@@ -16,7 +16,7 @@ Welcome to my GitHub portfolio! I'm a Data Scientist, passionate about coding, d
 Here are the technologies I use and enjoy working with:
 
 - **Languages**: Python, HTML/CSS
-- **Tools & Frameworks**: Pandas, NumPy, Scikit-Learn, Seaborn, Matplotlib.
+- **Tools & Frameworks**: Pandas, NumPy, Scikit-Learn, Seaborn, Matplotlib, Keras, TensorFlow.
 - **Databases**: MySQL, PostgreSQL
 - **Version Control**: Git, GitHub, GitLab
 - **Other**: Docker, Kubernetes, AWS, Linux
