@@ -1,6 +1,6 @@
 # Hi there, I'm Nisha 👋
 
-Welcome to my GitHub portfolio! I'm a Data Scientist, passionate about coding, data science. Below you'll find a collection of my personal projects, contributions, and the technologies I'm proficient in.
+Welcome to my GitHub portfolio! I'm a Data Scientist, passionate about coding, data science. Below you'll find a collection of my personal projects, contributions, and the technologies.
 
 ## 🚀 About Me
 
