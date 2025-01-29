@@ -1,14 +1,3 @@
-# Data Scientist
-
-### Technical Skills
-Python, SQL, ML, Deep Learning, LLM.
-
-### Education
-Master in Computer Science - <i>California State University - East Bay</i> - 2022
-
-### Work Expeience
-Data Scientist @Gusto - Feb 2024
-
 # Hi there, I'm Nisha 👋
 
 Welcome to my GitHub portfolio! I'm a Data Scientist, passionate about coding, data science. Below you'll find a collection of my personal projects, contributions, and the technologies I'm proficient in.
@@ -31,3 +20,6 @@ Here are the technologies I use and enjoy working with:
 - **Databases**: MySQL, PostgreSQL
 - **Version Control**: Git, GitHub, GitLab
 - **Other**: Docker, Kubernetes, AWS, Linux
+
+### Education
+Master in Computer Science - <i>California State University - East Bay</i> - 2022
