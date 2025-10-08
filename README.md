@@ -11,6 +11,13 @@ Welcome to my GitHub portfolio! I'm a Data Scientist, passionate about coding, d
 - 📫 How to reach me: nishamizh@gmail.com
 - ⚡ Fun fact: My fascination with uncovering the root causes of problems led me to the world of data, and understanding it has become my passion.
 
+## 🚀 Featured Projects
+
+### [Amzon Review Sentiment Analysis](https://github.com/nishamizh/ReviewAnalysis-Capstone2)
+Analyze Review sentiment using  
+**Tech:** NLTK, TfidfVectorizer, Pandas, Numpy, Scikit-learn, Matplotlib  
+
+
 ## 🛠️ Technologies & Tools
 
 Here are the technologies I use and enjoy working with:
