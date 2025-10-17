@@ -17,6 +17,12 @@ Welcome to my GitHub portfolio! I'm a Data Scientist, passionate about coding, d
 Analyze Review sentiment using  
 **Tech:** NLTK, TfidfVectorizer, Pandas, Numpy, Scikit-learn, Matplotlib  
 
+### [Chatbot Logs](https://github.com/nishamizh/chatbot_logs)
+Analyze Logs and detect Log LEVEL type 
+**Tech:** Pandas, Numpy, Scikit-learn, Matplotlib, PyTorch, transformers, HuggingFace distillBERT
+
+
+
 
 ## 🛠️ Technologies & Tools
 
