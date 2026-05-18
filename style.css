@@ -1,3 +1,4 @@
+/* GLOBAL */
 * {
   margin: 0;
   padding: 0;
@@ -11,11 +12,19 @@ body {
   line-height: 1.7;
 }
 
+/* CONTAINER */
+.section {
+  padding: 5rem 10vw;
+  max-width: 1200px;
+  margin: auto;
+}
+
 /* NAVBAR */
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 6vw;
+  align-items: center;
+  padding: 1rem 10vw;
   background: rgba(5, 8, 22, 0.8);
   backdrop-filter: blur(10px);
   position: sticky;
@@ -32,79 +41,84 @@ body {
 
 /* HERO */
 .hero {
-  padding: 6rem 6vw;
+  padding: 8rem 10vw 6rem;
   text-align: center;
 }
 
 .hero h1 {
-  font-size: 3rem;
-  margin-bottom: 0.5rem;
+  font-size: 3.5rem;
+  font-weight: 700;
+  background: linear-gradient(to right, #60a5fa, #a78bfa);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .subtitle {
-  color: #a5b4fc;
-  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  margin-top: 0.75rem;
+  color: #c7d2fe;
+}
+
+.links {
+  margin-top: 1.5rem;
 }
 
 .links a {
   margin: 0 0.75rem;
   color: #38bdf8;
+  font-weight: 500;
 }
 
-/* SECTIONS */
-.section {
-  padding: 4rem 6vw;
-}
-
+/* HEADINGS */
 .section h2 {
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
   color: #bfdbfe;
 }
 
-/* SKILLS */
+/* SKILLS GRID */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
 }
 
 .skill-card {
   background: #111827;
-  padding: 1.5rem;
+  padding: 1.75rem;
   border-radius: 0.75rem;
   border: 1px solid #1f2937;
   transition: transform 0.2s ease, border-color 0.2s ease;
 }
 
 .skill-card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-6px);
   border-color: #38bdf8;
 }
 
 .skill-card h3 {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
   color: #a5b4fc;
 }
 
-/* PROJECTS */
+/* PROJECT CARD */
 .project-card {
   background: #111827;
-  padding: 1.75rem;
+  padding: 2rem;
   border-radius: 0.75rem;
   border: 1px solid #1f2937;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   transition: transform 0.2s ease, border-color 0.2s ease;
 }
 
 .project-card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-6px);
   border-color: #38bdf8;
 }
 
 .project-card h3 {
   color: #a5b4fc;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
 }
 
 .project-card a {
@@ -115,17 +129,19 @@ body {
 /* BUTTON */
 .btn {
   display: inline-block;
-  padding: 0.7rem 1.4rem;
+  padding: 0.8rem 1.6rem;
   background: #38bdf8;
   color: #000;
   border-radius: 999px;
   font-weight: 600;
+  margin-top: 1rem;
 }
 
 /* FOOTER */
 .footer {
   text-align: center;
-  padding: 1.5rem;
+  padding: 2rem;
   color: #6b7280;
   border-top: 1px solid #1f2937;
+  margin-top: 4rem;
 }
