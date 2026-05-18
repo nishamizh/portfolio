@@ -1,19 +1,23 @@
-/* Modern dark theme */
-body {
-  background: #0b0e1a;
-  color: #e5e7eb;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: system-ui, sans-serif;
+}
+
+body {
+  background: #050816;
+  color: #e5e7eb;
   line-height: 1.7;
 }
 
-/* Navbar */
+/* NAVBAR */
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 1rem 6vw;
-  background: rgba(15, 17, 28, 0.7);
-  backdrop-filter: blur(12px);
+  background: rgba(5, 8, 22, 0.8);
+  backdrop-filter: blur(10px);
   position: sticky;
   top: 0;
   z-index: 10;
@@ -26,19 +30,39 @@ body {
   font-weight: 500;
 }
 
-/* Section spacing */
+/* HERO */
+.hero {
+  padding: 6rem 6vw;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: #a5b4fc;
+  margin-bottom: 1rem;
+}
+
+.links a {
+  margin: 0 0.75rem;
+  color: #38bdf8;
+}
+
+/* SECTIONS */
 .section {
   padding: 4rem 6vw;
 }
 
-/* Headings */
 .section h2 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
   color: #bfdbfe;
 }
 
-/* Skill cards */
+/* SKILLS */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -63,22 +87,7 @@ body {
   color: #a5b4fc;
 }
 
-/* Buttons */
-.btn {
-  display: inline-block;
-  padding: 0.7rem 1.4rem;
-  background: #38bdf8;
-  color: #000;
-  border-radius: 999px;
-  font-weight: 600;
-  transition: background 0.2s ease;
-}
-
-.btn:hover {
-  background: #7dd3fc;
-}
-
-/* Project cards */
+/* PROJECTS */
 .project-card {
   background: #111827;
   padding: 1.75rem;
@@ -103,7 +112,17 @@ body {
   font-weight: 500;
 }
 
-/* Footer */
+/* BUTTON */
+.btn {
+  display: inline-block;
+  padding: 0.7rem 1.4rem;
+  background: #38bdf8;
+  color: #000;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+/* FOOTER */
 .footer {
   text-align: center;
   padding: 1.5rem;
