@@ -10,6 +10,7 @@ body {
   background: #050816;
   color: #e5e7eb;
   line-height: 1.7;
+  overflow-x: hidden;
 }
 
 /* CONTAINER */
@@ -37,6 +38,11 @@ body {
   margin-left: 1rem;
   color: #93c5fd;
   font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navbar a:hover {
+  color: #60a5fa;
 }
 
 /* HERO */
@@ -67,6 +73,11 @@ body {
   margin: 0 0.75rem;
   color: #38bdf8;
   font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.links a:hover {
+  opacity: 0.7;
 }
 
 /* HEADINGS */
@@ -88,12 +99,13 @@ body {
   padding: 1.75rem;
   border-radius: 0.75rem;
   border: 1px solid #1f2937;
-  transition: transform 0.2s ease, border-color 0.2s ease;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .skill-card:hover {
   transform: translateY(-6px);
   border-color: #38bdf8;
+  box-shadow: 0 8px 20px rgba(56, 189, 248, 0.15);
 }
 
 .skill-card h3 {
@@ -108,12 +120,13 @@ body {
   border-radius: 0.75rem;
   border: 1px solid #1f2937;
   margin-top: 2rem;
-  transition: transform 0.2s ease, border-color 0.2s ease;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .project-card:hover {
   transform: translateY(-6px);
   border-color: #38bdf8;
+  box-shadow: 0 8px 20px rgba(56, 189, 248, 0.15);
 }
 
 .project-card h3 {
@@ -124,6 +137,11 @@ body {
 .project-card a {
   color: #38bdf8;
   font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.project-card a:hover {
+  opacity: 0.7;
 }
 
 /* BUTTON */
@@ -135,6 +153,12 @@ body {
   border-radius: 999px;
   font-weight: 600;
   margin-top: 1rem;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  opacity: 0.9;
 }
 
 /* FOOTER */
@@ -144,4 +168,16 @@ body {
   color: #6b7280;
   border-top: 1px solid #1f2937;
   margin-top: 4rem;
+}
+
+/* ANIMATIONS */
+.hidden {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
 }
